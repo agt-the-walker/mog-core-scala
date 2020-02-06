@@ -13,8 +13,7 @@ lazy val mogCore = crossProject.in(file("."))
   .settings(
     inThisBuild(List(
       organization := "com.mogproject",
-      scalaVersion := "2.12.0",
-      crossScalaVersions := Seq("2.11.11", "2.12.0")
+      scalaVersion := "2.13.1",
     )),
     name := "mog-core-scala",
     version := "0.1-SNAPSHOT",
