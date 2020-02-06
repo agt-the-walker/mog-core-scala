@@ -18,8 +18,8 @@ lazy val mogCore = crossProject.in(file("."))
     name := "mog-core-scala",
     version := "0.1-SNAPSHOT",
     libraryDependencies ++= Seq(
-      "org.scalatest" %%% "scalatest" % "3.0.1" % Test,
-      "org.scalacheck" %%% "scalacheck" % "1.13.4" % Test
+      "org.scalatest" %%% "scalatest" % "3.1.0" % Test,
+      "org.scalacheck" %%% "scalacheck" % "1.14.3" % Test
     ),
     scalacOptions in ThisBuild ++= Seq("-unchecked", "-deprecation"),
     parallelExecution in Test := false,
